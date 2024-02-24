@@ -8,7 +8,7 @@ const app = express();
 dotenv.config({path: './config/config.env'});
 
 app.use(cors({
-    origin:"*",
+    origin:"https://65d9faf964c4cf000ce9c152--unrivaled-cannoli-fd929f.netlify.app",
     methods:["POST"],
     credentials: true
 }));
